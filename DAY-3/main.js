@@ -127,3 +127,42 @@ let amount = 0;
 // console.log(amount + unit * 4.2);
 
 // LOOP
+
+let money = 2253;
+
+if (money >= 500) {
+  console.log(`500 note ${Math.floor(money / 500)}`);
+  money = money % 500;
+}
+if (money >= 200) {
+  console.log(`200 note ${Math.floor(money / 200)}`);
+  money = money % 200;
+}
+if (money >= 100) {
+  console.log(`100 note ${Math.floor(money / 100)}`);
+  money = money % 100;
+}
+if (money >= 50) {
+  console.log(`50 note ${Math.floor(money / 50)}`);
+  money = money % 50;
+}
+if (money >= 20) {
+  console.log(`20 note ${Math.floor(money / 20)}`);
+  money = money % 20;
+}
+if (money >= 10) {
+  console.log(`10 note ${Math.floor(money / 10)}`);
+  money = money % 10;
+}
+if (money >= 5) {
+  console.log(`5 note ${Math.floor(money / 5)}`);
+  money = money % 5;
+}
+if (money >= 2) {
+  console.log(`2 note ${Math.floor(money / 2)}`);
+  money = money % 2;
+}
+if (money >= 1) {
+  console.log(`1 note ${Math.floor(money / 1)}`);
+  money = money % 1;
+}

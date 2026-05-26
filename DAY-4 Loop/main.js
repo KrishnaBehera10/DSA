@@ -115,7 +115,7 @@
 
 // method-1
 
-let n = Number(prompt("Enter a number: "));
+// let n = Number(prompt("Enter a number: "));
 
 // let isPrime = true;
 
@@ -157,17 +157,17 @@ let n = Number(prompt("Enter a number: "));
 
 // method-3 (most optimized)
 
-function isPrime(num) {
-  if (num <= 1) return false;
-  if (num === 2) return true;
-  if (num % 2 === 0) return false;
-  for (let i = 3; i <= Math.sqrt(num); i += 2) {
-    if (num % i === 0) return false;
-  }
-  return true;
-}
+// function isPrime(num) {
+//   if (num <= 1) return false;
+//   if (num === 2) return true;
+//   if (num % 2 === 0) return false;
+//   for (let i = 3; i <= Math.sqrt(num); i += 2) {
+//     if (num % i === 0) return false;
+//   }
+//   return true;
+// }
 
-const primeCheck = isPrime(n);
+// const primeCheck = isPrime(n);
 
-if (primeCheck) console.log(`${n} is a prime number.`);
-else console.log(`${n} is not a prime number.`);
+// if (primeCheck) console.log(`${n} is a prime number.`);
+// else console.log(`${n} is not a prime number.`);
